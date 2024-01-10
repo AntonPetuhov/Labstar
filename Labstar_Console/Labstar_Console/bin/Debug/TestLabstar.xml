@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="yes"?>
+<DATAPACKET Version="2.0">
+<METADATA>
+<FIELDS>
+<FIELD FieldName="FIELD_1" DisplayLabel="Номер_образца" FieldType="String" FieldClass="TField"/>
+<FIELD FieldName="FIELD_2" DisplayLabel="Номер_ячейки" FieldType="String" FieldClass="TField"/>
+<FIELD FieldName="FIELD_3" DisplayLabel="Статус" FieldType="String" FieldClass="TField"/>
+<FIELD FieldName="FIELD_4" DisplayLabel="ФИО" FieldType="String" FieldClass="TField"/>
+<FIELD FieldName="FIELD_5" DisplayLabel="Название_отделения" FieldType="String" FieldClass="TField"/>
+<FIELD FieldName="FIELD_6" DisplayLabel="Возраст" FieldType="String" FieldClass="TField"/>
+<FIELD FieldName="FIELD_7" DisplayLabel="Датарождения" FieldType="String" FieldClass="TField"/>
+<FIELD FieldName="FIELD_8" DisplayLabel="Результат" FieldType="String" FieldClass="TField"/>
+<FIELD FieldName="__1" DisplayLabel="Время_установки_флакона" FieldType="String" FieldClass="TField"/>
+<FIELD FieldName="___" DisplayLabel="Время_подачи_сигнала_тревоги" FieldType="String" FieldClass="TField"/>
+<FIELD FieldName="FIELD_9" DisplayLabel="Предустановленное_время" FieldType="String" FieldClass="TField"/>
+<FIELD FieldName="__" DisplayLabel="Время_изъятия_флакона" FieldType="String" FieldClass="TField"/>
+<FIELD FieldName="FIELD_10" DisplayLabel="Категория_образца" FieldType="String" FieldClass="TField"/>
+<FIELD FieldName="FIELD_11" DisplayLabel="Пол" FieldType="String" FieldClass="TField"/>
+<FIELD FieldName="FIELD_12" DisplayLabel="Время_сигнала" FieldType="String" FieldClass="TField"/>
+<FIELD FieldName="FIELD_13" DisplayLabel="Номерпациента" FieldType="String" FieldClass="TField"/>
+</FIELDS>
+</METADATA>
+<ROWDATA>
+<ROW FIELD_1="2154136700" FIELD_2="25" FIELD_3="Образец_в_проверке" FIELD_4="" FIELD_5="" FIELD_6="" FIELD_7="" FIELD_8="Нет_результата" __1="09.11.2023&#160;16:08:00" ___="" FIELD_9="120" __="" FIELD_10="" FIELD_11="" FIELD_12="0" FIELD_13=""/>
+<ROW FIELD_1="2154256500" FIELD_2="4" FIELD_3="Образец_в_проверке" FIELD_4="" FIELD_5="" FIELD_6="" FIELD_7="" FIELD_8="Нет_результата" __1="10.11.2023&#160;14:20:00" ___="" FIELD_9="120" __="" FIELD_10="" FIELD_11="" FIELD_12="0" FIELD_13=""/>
+<ROW FIELD_1="2154263200" FIELD_2="91" FIELD_3="Образец_в_проверке" FIELD_4="" FIELD_5="" FIELD_6="" FIELD_7="" FIELD_8="Нет_результата" __1="10.11.2023&#160;14:19:00" ___="" FIELD_9="120" __="" FIELD_10="" FIELD_11="" FIELD_12="0" FIELD_13=""/>
+<ROW FIELD_1="2154381000" FIELD_2="20" FIELD_3="Образец_в_проверке" FIELD_4="" FIELD_5="" FIELD_6="" FIELD_7="" FIELD_8="Нет_результата" __1="11.11.2023&#160;11:27:00" ___="" FIELD_9="120" __="" FIELD_10="" FIELD_11="" FIELD_12="0" FIELD_13=""/>
+<ROW FIELD_1="2154389000" FIELD_2="59" FIELD_3="Образец_изъят" FIELD_4="" FIELD_5="" FIELD_6="" FIELD_7="" FIELD_8="положительный" __1="11.11.2023&#160;18:09:00" ___="12.11.2023&#160;18:59:10" FIELD_9="120" __="13.11.2023&#160;8:15:00" FIELD_10="" FIELD_11="" FIELD_12="24.84" FIELD_13=""/>
+<ROW FIELD_1="2154390800" FIELD_2="39" FIELD_3="Образец_в_проверке" FIELD_4="" FIELD_5="" FIELD_6="" FIELD_7="" FIELD_8="Нет_результата" __1="11.11.2023&#160;20:27:00" ___="" FIELD_9="120" __="" FIELD_10="" FIELD_11="" FI<ROW FIELD_1="XCR04037300" FIELD_2="16" FIELD_3="Образец_в_проверке" FIELD_4="" FIELD_5="" FIELD_6="" FIELD_7="" FIELD_8="Нет_результата" __1="10.11.2023&#160;7:59:00" ___="" FIELD_9="120" __="" FIELD_10="" FIELD_11="" FIELD_12="0" FIELD_13=""/>
+<ROW FIELD_1="XET02251446" FIELD_2="62" FIELD_3="Образец_в_проверке" FIELD_4="Контроль&#160;отр" FIELD_5="" FIELD_6="" FIELD_7="09.11.2023" FIELD_8="Нет_результата" __1="09.11.2023&#160;12:14:00" ___="" FIELD_9="120" __="" FIELD_10="стерильн" FIELD_11="Не&#160;задан" FIELD_12="0" FIELD_13="001"/>
+<ROW FIELD_1="XET02251703" FIELD_2="87" FIELD_3="Образец_в_проверке" FIELD_4="" FIELD_5="" FIELD_6="" FIELD_7="" FIELD_8="Нет_результата" __1="12.11.2023&#160;23:15:00" ___="" FIELD_9="120" __="" FIELD_10="" FIELD_11="" FIELD_12="0" FIELD_13=""/>
+<ROW FIELD_1="XET02251784" FIELD_2="41" FIELD_3="Образец_изъят" FIELD_4="" FIELD_5="" FIELD_6="" FIELD_7="" FIELD_8="Нет_результата" __1="11.11.2023&#160;21:07:00" ___="" FIELD_9="120" __="13.11.2023&#160;8:23:00" FIELD_10="" FIELD_11="" FIELD_12="0" FIELD_13=""/>
+<ROW FIELD_1="ЧСК04034672" FIELD_2="46" FIELD_3="Образец_в_проверке" FIELD_4="" FIELD_5="" FIELD_6="" FIELD_7="" FIELD_8="Нет_результата" __1="13.11.2023&#160;11:48:00" ___="" FIELD_9="120" __="" FIELD_10="" FIELD_11="" FIELD_12="0" FIELD_13=""/>
+</ROWDATA>
+</DATAPACKET>
