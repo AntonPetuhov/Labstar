@@ -168,6 +168,8 @@ namespace LabstarService
             {
                 case "положительный":
                     return 3113;
+                case "Положительный":
+                    return 3113;
                 // если результат "отрицательный"
                 // Код МО "Микроорганизмы не обнаружены"
                 default:
@@ -1427,7 +1429,8 @@ namespace LabstarService
                         foreach (XmlNode row in rowdata)
                         {
                             // выбор узла, содержащего RID
-                            string RID = row.SelectSingleNode("@FIELD_1")?.Value;
+                            //string RID = row.SelectSingleNode("@FIELD_1")?.Value;
+                            string RID = row.SelectSingleNode("@ID")?.Value;
                             // проверка шк на корректность, должен состоять из цифр
                             bool isNumber = long.TryParse(RID, out long numericValue);
                             // выбор узла, содержащего результат
@@ -1443,7 +1446,8 @@ namespace LabstarService
                                 }
                                 // элемент в котором обнаружен результат
                                 FileResultLog(row.OuterXml);
-                                FileResultLog($"RID: {row.SelectSingleNode("@FIELD_1")?.Value}");
+                                //FileResultLog($"RID: {row.SelectSingleNode("@FIELD_1")?.Value}");
+                                FileResultLog($"RID: {row.SelectSingleNode("@ID")?.Value}");
                                 FileResultLog($"Result: {row.SelectSingleNode("@FIELD_8")?.Value}");
 
                                 // Запись результатов в CGM
