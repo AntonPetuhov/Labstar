@@ -1242,7 +1242,7 @@ namespace LabstarService
                                 }
 
                                 #region Отправка сообщения в бот
-                                if (InsertResult == "положительный")
+                                if (InsertResult == "положительный" || InsertResult == "Положительный")
                                 {
                                     #region Получем из базы данные по заявке для оповещения
 
@@ -1293,11 +1293,11 @@ namespace LabstarService
 
                             // Если результат NEGATIVE - валидируем результат, если POSITIVE - предварительный отчет
                             // Если POSITIVE и такого микроорганизма еще нет в среде, то необходимо отправить предварительный отчет
-                            if (InsertResult == "отрицательный")
+                            if ((InsertResult == "отрицательный")||(InsertResult == "Отрицательный"))
                             {
                                 ValidationCGM(InsertRid, rem_id, pro_id, TestCode, CGMconnection);
                             }
-                            else if (InsertResult == "положительный" && !Is_There_MO)
+                            else if ((InsertResult == "положительный" && !Is_There_MO)||(InsertResult == "Положительный" && !Is_There_MO))
                             {
                                 PreliminaryReportCGM(InsertRid, pid, rem_id, pro_id, TestCode, CGMconnection);
                             }
